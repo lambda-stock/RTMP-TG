@@ -17,7 +17,7 @@ Play streams in your chats using this userbot !
 
 ## Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?=https://github.com/lambda-stock/RTMP-TG)
 
 Warning : Heroku bans repo's with "youtube_dl" as requirement, So, make sure you remove the requirement and then deploy. (yes, the bot will still work but you won't get direct link support for youtube_dl supported sites :p)
 
