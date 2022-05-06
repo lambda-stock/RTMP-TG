@@ -1,0 +1,38 @@
+{
+    "name": "RTMP-TG",
+    "repository": "https://github.com/lambda-stock/RTMP-TG/",
+    "env": {
+        "API_ID": {
+            "description": "",
+            "required": "True"
+        },
+        "API_HASH": {
+            "description": "",
+            "required": "True"
+        },
+        "STRING_SESSION": {
+            "description": "",
+            "required": "True"
+        },
+        "FFMPEG_PATH": {
+            "description": "",
+            "required": "False"
+        },
+        "SUDO_USERS": {
+            "description": "",
+            "required": "True"
+        }
+    },
+    "stack": "container",
+    "buildpacks": [
+        {
+            "url": "python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
